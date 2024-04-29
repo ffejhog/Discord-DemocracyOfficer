@@ -1,0 +1,5 @@
+package: helldiversapi
+output: helldiversapi.gen.go
+generate:
+  models: true
+  client: true
