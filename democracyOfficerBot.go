@@ -68,7 +68,7 @@ func (b *DBot) RespondGPT(s *discordgo.Session, m *discordgo.MessageCreate) {
 		Currently, super earth is at war with two entities, the Terminid (Otherwise known as the bugs) and the Automatons (Otherwise known as the bots). The Terminid can be processed into E117, a form of fuel 100x more efficient than standard petroleum. The Automatons are remnants of the Cyborg race, who sought to spread communism, an undemocratic belief. 
 		
 		The primary principals of the helldivers are liberty, freedom and managed democracy. A common phrase is, "Show the enemy the <ADJECTIVE> of the Helldivers"
-		`,
+		Make sure your responses are no more than 3-5 sentences in length.`,
 	})
 
 	for _, element := range lastMessages {
