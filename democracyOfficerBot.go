@@ -73,7 +73,7 @@ func (b *DBot) RespondGPT(s *discordgo.Session, m *discordgo.MessageCreate) {
 	resp, err := b.GPT.CreateChatCompletion(
 		context.Background(),
 		openai.ChatCompletionRequest{
-			Model:    "samewise",
+			Model:    "samwise:latest",
 			Messages: gptMessages,
 		},
 	)
