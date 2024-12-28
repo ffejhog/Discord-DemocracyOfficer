@@ -12,8 +12,6 @@ RUN go mod download
 # Copy local code to the container image.
 COPY . ./
 
-RUN go generate helldiversapi/generate.go 
-
 # Build the binary.
 RUN go build -v -o server
 
