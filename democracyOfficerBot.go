@@ -26,7 +26,7 @@ func (b *DBot) Connect() error {
 
 	clientConfig := openai.DefaultConfig(b.Config.APIToken)
 
-	clientConfig.BaseURL = "http://ollama:11434/v1/"
+	clientConfig.BaseURL = "http://ollama:11434/v1"
 
 	b.GPT = openai.NewClientWithConfig(clientConfig)
 
